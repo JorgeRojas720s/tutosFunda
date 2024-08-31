@@ -1,18 +1,22 @@
 #include <iostream>
+#include <cstdlib> //  system("cls");
 #include <time.h>
 
 using namespace std;
 
-//!Practice
+//! Practice
 
 //* Números pares e impares
 //? Escribe un programa que pida un número entero al usuario y determine si es par o impar.
 
-bool par(int num) {
-    if (num % 2 == 0) {
+bool par(int num)
+{
+    if (num % 2 == 0)
+{
         return true;
     }
-    else {
+    else
+    {
         return false;
     }
 }
@@ -20,35 +24,33 @@ bool par(int num) {
 //* Swap
 //? Escribe un programa que permita intercambiar los valores de dos variables enteras.
 
-void swap(int number1, int number2){
-  int aux = number1;
-  number1 = number2;
-  number2 = aux;
+void swap(int number1, int number2)
+{
+    int aux = number1;
+    number1 = number2;
+    number2 = aux;
 }
 
-//* Factorial de un número
-//? Desarrolla un programa que calcule el factorial de un número entero positivo ingresado por el usuario. Asegúrate de manejar correctamente el caso en el que el usuario ingrese un número negativo.
 
-int factorial(int num) {
-    int result = 1;
-    for (int i = 1; i <= num; i++) {
-        result = result * i;
-    }
-    return result;
-}
+int main()
+{
+    // srand(time(NULL));
 
-//* Adivina el numero
-//? Crea un juego en el que el programa genere un número aleatorio entre 1 y 100, y el usuario tenga que adivinarlo. El programa debe indicar si el número ingresado es mayor o menor que el número secreto, y debe contar el número de intentos que el usuario ha realizado.
+    // int numRand = rand() % 101;
+    // game(numRand);
 
-int main(){
-  srand(time(NULL));
+    //Armstrong(152);
 
-  // int num = rand() % 101;
-  // cout << "El numero aleatorio es: " << num << endl;
+    string perro = "canelo";
+    string gato = "minino";
+    string aux;
 
+    aux = perro;
+    perro = gato;
+    gato = aux; 
 
-  cout << "hola mundo\n";
+    cout<<"Perro es: " + perro << endl;
+    cout<<"Gato es: "+ gato;
 
-  
     return 0;
 }
