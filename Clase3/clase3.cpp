@@ -9,15 +9,45 @@ using namespace std;
 // Si la edad es 65 años o más, imprime "Adulto mayor".
 // Si la edad es negativa o mayor que 120, imprime "Edad no válida".
 
-int sumar(int a, int b)
+
+
+string clasificarCalificaciones(int calificacion)
 {
-    return a + b;
+    if (calificacion >= 0 && calificacion <= 59)
+    {
+        return "aprobado";
+    }
+    else if (calificacion >= 60 && calificacion <= 79)
+    {
+        return "notable";
+    }
+    else if (calificacion >= 80 && calificacion <= 100)
+    {
+        return "sobresaliente";
+    }
+    else
+    {
+        return "calificacion invalida";
+    }
 }
 
 int main()
 {
 
-    cout << sumar(5,2);
+    float notas;
 
+    while (notas > -1)
+    {
+        std::cout << "Ingrese la calificacion del estudiante (o -1 para terminar): ";
+        std::cin >> notas;
+
+        if (notas == -1)
+        {
+            break;
+        }
+
+        std::string resultado = clasificarCalificaciones(notas);
+        std::cout << "Clasificacion: " << resultado << std::endl;
+    }
     return 0;
 }

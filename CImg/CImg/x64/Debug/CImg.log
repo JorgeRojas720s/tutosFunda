@@ -1,0 +1,22 @@
+﻿  main.cpp
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(14,48): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(14,48): warning C4244:         with
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(14,48): warning C4244:         [
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(14,48): warning C4244:             T=unsigned char
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(14,48): warning C4244:         ]
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(15,48): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(15,48): warning C4244:         with
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(15,48): warning C4244:         [
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(15,48): warning C4244:             T=unsigned char
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(15,48): warning C4244:         ]
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(16,48): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(16,48): warning C4244:         with
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(16,48): warning C4244:         [
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(16,48): warning C4244:             T=unsigned char
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(16,48): warning C4244:         ]
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(42,49): warning C4244: '=': conversión de 'double' a 'T'; posible pérdida de datos
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(42,49): warning C4244:         with
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(42,49): warning C4244:         [
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(42,49): warning C4244:             T=unsigned char
+C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\main.cpp(42,49): warning C4244:         ]
+  CImg.vcxproj -> C:\Users\jorge\OneDrive\Documentos\TutosFundamentos\CImg\x64\Debug\CImg.exe
