@@ -1,1 +1,11 @@
 .vscode/*
+.vs/
+*.suo
+*.vcxproj.user
+*.pdb
+*.exe
+*.ilk
+*.log
+*.idb
+CImg/*
+POO/vs/*
